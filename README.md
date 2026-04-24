@@ -154,6 +154,12 @@ role: "user" // default
 📤 Export expenses (CSV/PDF)  
 👨‍💻 Author
 
+## Screenshot of Front-end
+
+![Example screenshot](screenshots/1_login.png)
+![Example screenshot](screenshots/2.png)
+![Example screenshot](screenshots/3.png)
+
 ## Built by Shalika Hiranthi Dissanayaka
 
 ### Full Stack Developer
