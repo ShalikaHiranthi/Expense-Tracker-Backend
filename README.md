@@ -128,7 +128,9 @@ Authorization: Bearer <token>
 
 Protected routes use:
 
+```
 Authorization: Bearer <token>
+```
 
 JWT is verified using middleware before accessing API routes.
 
