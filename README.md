@@ -29,8 +29,10 @@ CORS
 
 ## Clone repository
 
-git clone https://github.com/your-username/expense-tracker.git  
+```
+git clone https://github.com/your-username/expense-tracker.git
 cd backend
+```
 
 ## Install dependencies
 
@@ -40,16 +42,24 @@ npm install
 
 Create .env in root:
 
-PORT=9000  
-MONGO_URI=your_mongodb_connection_string  
-JWT_SECRET=your_jwt_secret  
+```
+PORT=9000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
 GOOGLE_CLIENT_ID=your_google_client_id
+```
 
 ## Run server
 
-npm start  
-or (development mode)  
+```
+npm start
+```
+
+or (development mode)
+
+```
 npm run dev
+```
 
 ## Authentication Flow
 
@@ -68,39 +78,51 @@ POST /auth/google
 
 Body:
 
+```
 {"token": "google_credential" }
+```
 
 Response:
 
-{  
-"token": "jwt_token",  
- "user": {  
- "name": "John",  
- "email": "john@gmail.com"  
- }  
+```
+{
+"token": "jwt_token",
+ "user": {
+ "name": "John",
+ "email": "john@gmail.com"
+ }
 }
+```
 
 ## 💰 Expenses
 
 ### Get all expenses (user-specific)
 
-GET /api/expenses  
+```
+GET /api/expenses
 Authorization: Bearer <token>
+```
 
 ### Add expense
 
-POST /api/expenses  
+```
+POST /api/expenses
 Authorization: Bearer <token>
+```
 
 ### Update expense
 
-PUT /api/expenses/:id  
+```
+PUT /api/expenses/:id
 Authorization: Bearer <token>
+```
 
 ### Delete expense
 
-DELETE /api/expenses/:id  
+```
+DELETE /api/expenses/:id
 Authorization: Bearer <token>
+```
 
 ## Middleware
 
@@ -114,12 +136,14 @@ JWT is verified using middleware before accessing API routes.
 
 Each user contains:
 
-{  
-name,  
-email,  
-picture,  
-role: "user" // default  
+```
+{
+name,
+email,
+picture,
+role: "user" // default
 }
+```
 
 ## Future Improvements
 
