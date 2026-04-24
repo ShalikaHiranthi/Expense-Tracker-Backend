@@ -151,8 +151,7 @@ role: "user" // default
 🔄 Refresh token system  
 👑 Admin role system  
 📱 Mobile API support  
-📤 Export expenses (CSV/PDF)  
-👨‍💻 Author
+📤 Export expenses (CSV/PDF)
 
 ## Screenshot of Front-end
 
@@ -160,6 +159,8 @@ role: "user" // default
 ![Example screenshot](screenshots/2.png)
 ![Example screenshot](screenshots/3.png)
 
-## Built by Shalika Hiranthi Dissanayaka
+## 👨‍💻 Author
+
+### Built by Shalika Hiranthi Dissanayaka
 
 ### Full Stack Developer
